@@ -1,4 +1,8 @@
+// Resources
 import Image from "next/image";
+
+// Components
+import AuthForm from "./Components/AuthForm";
 
 export default function Home() {
   return (
@@ -15,6 +19,7 @@ export default function Home() {
           Sign in to your account
         </h2>
       </div>
+      <AuthForm />
     </div>
   );
 }
